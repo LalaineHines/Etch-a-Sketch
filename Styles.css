@@ -29,3 +29,20 @@ body {
     box-shadow: inset 4px 10px 10px 4px #7e3030;
 }
 
+.container {
+    display: grid;
+    width: 700px;
+    height: 400px;
+    background-color: #e0e0e0;
+    border: #acacac solid;
+    margin: auto;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.cell {
+    border: #acacacfc solid thin;
+}
+
