@@ -77,3 +77,23 @@ input {
     margin-top: 20px;
 }
 
+.sizeBtn {
+    background: linear-gradient(180deg, #FEE600, #fff9bf);
+    font-family: "Lobster", sans-serif;
+    font-size: x-large;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: inset 1px 1px 1px 3px #534b00;
+}
+
+.colorBtn:focus {
+    background-color: #fff9cd;
+}
+
