@@ -29,4 +29,15 @@ function populateContainer (size) {
 
 populateContainer(16);
 
-//
+// Add input for a new grid, limit is between 2px - 100px
+
+function changeSize (input) {
+    input => 2 && input <= 100 ? populateContainer(input) : console.log("Input Error! to many or to few squares");
+};
+
+// Random color found function
+
+function colorSquare () {
+    color === "random" ? this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)` : this.style.backgroundColor = color;
+};
+
