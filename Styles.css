@@ -63,3 +63,17 @@ body {
     font-size: large;
 }
 
+input {
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.resize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
