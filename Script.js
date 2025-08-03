@@ -41,3 +41,12 @@ function colorSquare () {
     color === "random" ? this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)` : this.style.backgroundColor = color;
 };
 
+function changeColor (choice) {
+    color = choice;
+};
+
+function resetContainer () {
+    let container = document.querySelector(".container");
+    let squares = container.querySelectorAll("div");
+    squares.forEach((div) => (div.style.backgroundColor = "#e0e0e0"));
+};
